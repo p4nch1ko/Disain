@@ -5,7 +5,7 @@ function Header() {
     return (
         <div className="flex items-center">
             <div className="mr-6" style={{ backgroundColor: 'transparent' }}>
-                <Image src={logo} alt="transparent" style={{ backgroundColor: 'transparent', width: '150px', height: '150px' }} />
+                <Image src={logo} alt="transparent" style={{ backgroundColor: 'transparent', width: '150px', height: '120px' }} />
             </div>
             <div className="flex flex-wrap items-center ml-auto">
                 <div className="mr-4 " style={{ marginBottom: '2cm' }}>
