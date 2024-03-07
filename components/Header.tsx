@@ -7,7 +7,7 @@ function Header() {
             <div className="mr-6" style={{ backgroundColor: 'transparent' }}>
                 <Image src={logo} alt="transparent" style={{ backgroundColor: 'transparent', width: '150px', height: '120px' }} />
             </div>
-            <div className="flex flex-wrap items-center ml-auto">
+            <div className="flex flex-wrap items-center ml-auto" style={{ paddingLeft: '30px', paddingRight: '30px' }}>
                 <div className="mr-4 " style={{ marginBottom: '2cm' }}>
                     <div className="h-10" style={{ height: '8px', fontFamily: 'cursive', fontWeight: 'normal' }}>
                         <span className="hover:underline" style={{ borderBottom: '2px solid transparent' }}>Martist</span>
@@ -44,6 +44,8 @@ function Header() {
 }
 
 export default Header;
+
+
 
 
 
